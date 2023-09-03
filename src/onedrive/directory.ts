@@ -93,6 +93,6 @@ export class OneDriveDirectory
   }
 
   #mergePath(path?: string, subpath?: string) {
-    return `${path === "/" ? "" : path ?? ""}${subpath ? `/${subpath}` : ""}`;
+    return `${path === "/" ? "" : path ?? ""}/${subpath ? `/${subpath}` : ""}`;
   }
 }
