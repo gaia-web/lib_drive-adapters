@@ -1,1 +1,1 @@
-export * as OneDrive from "./onedrive";
+export * from "./onedrive";
