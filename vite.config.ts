@@ -8,6 +8,11 @@ export default defineConfig({
       entry: await glob("src/**/*.ts"),
       formats: ["es"],
     },
+    rollupOptions: {
+      output: {
+        preserveModules: true,
+      },
+    },
   },
   base: "",
 });
