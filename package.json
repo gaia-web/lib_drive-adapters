@@ -5,6 +5,10 @@
   "type": "module",
   "module": "dist/index.js",
   "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
